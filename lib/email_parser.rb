@@ -6,13 +6,12 @@ class EmailParser
   end
 
   def parse
-    emails_array = emails.split(/,\s|\s/)
+    emails_array = @emails.split(/,\s|\s/)
     emails_array.uniq
   end
 
 end
 
-EmailParser.new(emails).parse
 
 # Build a class EmailParser that accepts a string of unformatted
 # emails. The parse method on the class should separate them into
