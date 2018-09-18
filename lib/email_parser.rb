@@ -12,7 +12,6 @@ class EmailParser
 
 end
 
-emails = "avi@test.com, arel@test.com"
 EmailParser.new(emails).parse
 
 # Build a class EmailParser that accepts a string of unformatted
